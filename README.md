@@ -29,3 +29,11 @@ git clone git@github.com:HuntFeng/astrovim-user-config.git ~/.config/nvim/lua/us
 :LspInstall vimls
 :LspInstall lua_ls
 ```
+## Trouble shooting
+- If `markdown-preview` is not working and error prompt shows `MODULE_NOT_FOUND`, do the folloing: 
+```bash
+cd ~/.local/share/nvim/lazy/markdown-preview.nvim/app
+yarn install
+# or 
+npm install
+```
