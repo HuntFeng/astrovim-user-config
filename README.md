@@ -37,3 +37,8 @@ yarn install
 # or 
 npm install
 ```
+## Enable global clipboard
+Neovim can share clipboard using `xclip`,
+```bash
+sudo apt-get install xclip
+```
