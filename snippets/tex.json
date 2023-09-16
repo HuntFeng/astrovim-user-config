@@ -1,0 +1,21 @@
+{
+  "template-beamer": {
+    "prefix": ["template", "beamer"],
+    "body": [
+      "\\documentclass{beamer}",
+      "\\usepackage{amssymb}",
+      "\\usepackage{amsmath}",
+      "\\usepackage{physics}",
+      "\\usepackage{graphicx}",
+      "",
+      "\\title{$1}",
+      "\\author{$2}",
+      "\\date{$3}",
+      "",
+      "\\begin{document}",
+      "\t$4",
+      "\\end{document}"
+    ],
+    "description": "Beamer template"
+  } 
+}
